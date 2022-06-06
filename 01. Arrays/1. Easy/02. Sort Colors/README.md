@@ -46,85 +46,60 @@
 
 ## Video Notes
 
+![vlcsnap-2022-06-06-14h15m49s135](https://user-images.githubusercontent.com/37560890/172131685-26b3a466-397f-431e-bb20-93138105d38a.png)
+![vlcsnap-2022-06-06-14h17m27s945](https://user-images.githubusercontent.com/37560890/172131709-9f5c7cd3-5864-47ac-8835-75573f67b9bb.png)
+![vlcsnap-2022-06-06-14h18m37s149](https://user-images.githubusercontent.com/37560890/172131716-20b48cea-13a1-42ad-8c80-8fe3a378b363.png)
+![vlcsnap-2022-06-06-14h20m14s570](https://user-images.githubusercontent.com/37560890/172131720-58ea4ec8-5d09-40df-9dc3-15c991963db8.png)
+![vlcsnap-2022-06-06-14h20m40s203](https://user-images.githubusercontent.com/37560890/172131722-f8fd9e7a-003b-45f6-b0ef-34792d0e9a7a.png)
+![vlcsnap-2022-06-06-14h23m30s000](https://user-images.githubusercontent.com/37560890/172131725-61cf5b03-7e32-4b43-8d5b-e8e43ffcdda1.png)
+![vlcsnap-2022-06-06-14h25m03s853](https://user-images.githubusercontent.com/37560890/172131729-617d43af-8760-410c-8da3-fdb8fb0ad9eb.png)
+![vlcsnap-2022-06-06-14h25m36s721](https://user-images.githubusercontent.com/37560890/172131733-b34acd4f-2959-4309-b9ac-94a91784b151.png)
+![vlcsnap-2022-06-06-14h26m08s396](https://user-images.githubusercontent.com/37560890/172131739-69fd3e3f-cac0-4b95-a44e-e4d89b4578bf.png)
+![vlcsnap-2022-06-06-14h26m17s169](https://user-images.githubusercontent.com/37560890/172131745-83908c9d-bfe6-4799-ac2c-288f99beceac.png)
 
 
+![image](https://user-images.githubusercontent.com/37560890/172131576-eda1a869-84cc-4ab4-990e-20b10455f051.png)
+![image](https://user-images.githubusercontent.com/37560890/172131627-84f8cd2f-2804-42f5-b00d-f9f16091bdff.png)
 
-## Solution 1. Count Sort
 
-```cpp
-// OJ: https://leetcode.com/problems/sort-colors/
-// Time: O(N)
-// Space: O(1)
-
-class Solution 
-{
-public:
-    void sortColors(vector<int>& nums) 
-    {
-        vector<int> cnt(3, 0);
-        for (int n : nums) cnt[n]++;
-        int i = 0;
-        
-	for (int j = 0; j < 3; ++j) 
-	{
-            while (cnt[j]--) nums[i++] = j;
-        }
-    }
-};
-```
-
-## Solution 2.
-
-```cpp
-// OJ: https://leetcode.com/problems/sort-colors/
-// Time: O(N)
-// Space: O(1)
-
-class Solution 
-{
-public:
-    void sortColors(vector<int>& nums) 
-    {
-        int r = 0, g = 0, b = 0;
-        for (int n : nums) 
-	{
-            if (n == 0) 
-	    {
-                nums[b++] = 2;
-                nums[g++] = 1;
-                nums[r++] = 0;
-            }
-	    else if (n == 1) 
-	    {
-                nums[b++] = 2;
-                nums[g++] = 1;
-        
-	} else nums[b++] = 2;
-        }
-    }
-};
-```
-
-## Solution 3.
+## Solution
 
 [Dutch national flag problem](https://en.wikipedia.org/wiki/Dutch_national_flag_problem)
 
 ```cpp
 // OJ: https://leetcode.com/problems/sort-colors/
-// Author: github.com/lzl124631x
 // Time: O(N)
 // Space: O(1)
-// Ref: https://leetcode.com/problems/sort-colors/solution/
-class Solution {
+
+class Solution
+{
 public:
-    void sortColors(vector<int>& A) {
-        int zero = 0, two = A.size() - 1;
-        for (int i = 0; i <= two; ) {
-            if (A[i] == 0) {
-                swap(A[i++], A[zero++]);
-            } else if (A[i] == 2) {
-                swap(A[i], A[two--]);
-            } else ++i;
+    void sortColors(vector<int>& nums) 
+    {
+        // Initialize the low
+        int low= 0;
+        
+        // Initialize the mid
+        int mid= 0;
+        
+        // Initialize the high
+        int high = nums.size()-1;
+        
+        // Iterate till mid <= high
+        while(mid<=high)
+        {
+            // Switch the mid and check the cases
+            switch(nums[mid])
+            {
+                // If the element is 0
+                case 0: swap(nums[low++],nums[mid++]); break;
+                
+                // If the element is 1
+                case 1: mid++; break;
+                
+                // If the element is 2
+                case 2: swap(nums[mid],nums[high--]); break;
+            }
         }
     }
 };
