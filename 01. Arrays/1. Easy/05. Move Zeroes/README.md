@@ -32,7 +32,7 @@
 ![vlcsnap-2022-06-06-18h43m07s269](https://user-images.githubusercontent.com/37560890/172168487-853228e6-4b3c-4a11-8fcb-4a801e598b8b.png)
 ![image](https://user-images.githubusercontent.com/37560890/172169019-f540e11d-a4e6-4949-9e04-8f90e43b789b.png)
 
-## Solution 1. 2 pointer approach
+### Solution 1. 2 pointer approach
 
 ```cpp
 class Solution 
@@ -68,7 +68,7 @@ public:
 };
 ```
 
-## Solution 2
+### Solution 2
 
 ```cpp
 class Solution 
