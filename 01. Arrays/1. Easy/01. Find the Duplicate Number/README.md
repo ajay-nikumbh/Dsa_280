@@ -51,6 +51,21 @@
 * [Missing Number (Easy)](https://leetcode.com/problems/missing-number/)
 * [Set Mismatch (Easy)](https://leetcode.com/problems/set-mismatch/)
 
+## Video Notes 
+
+![vlcsnap-2022-06-06-13h05m42s751](https://user-images.githubusercontent.com/37560890/172123513-da59f214-f95a-4c0b-8abe-41f9a172acec.png)
+![vlcsnap-2022-06-06-13h06m52s929](https://user-images.githubusercontent.com/37560890/172123527-b5554f08-0e6f-44cb-a62c-2e75f026b31d.png)
+![vlcsnap-2022-06-06-13h12m43s732](https://user-images.githubusercontent.com/37560890/172123532-bcd15cfe-75c0-4a12-b2a0-f2ab4a319e9e.png)
+![vlcsnap-2022-06-06-13h16m02s867](https://user-images.githubusercontent.com/37560890/172123536-3dba4297-e2cd-40db-b3ef-3a5d61793247.png)
+![vlcsnap-2022-06-06-13h20m26s555](https://user-images.githubusercontent.com/37560890/172123539-40aa9aa5-0975-4990-9c06-be261b330f72.png)
+![vlcsnap-2022-06-06-13h20m28s325](https://user-images.githubusercontent.com/37560890/172123540-5626f496-79c0-4e3c-8eca-1313ebc03ac1.png)
+![vlcsnap-2022-06-06-13h21m40s752](https://user-images.githubusercontent.com/37560890/172123544-76f84d55-6e82-44f3-94d3-e0d97c3ef2fd.png)
+![vlcsnap-2022-06-06-13h25m39s024](https://user-images.githubusercontent.com/37560890/172123551-d144c514-4cf2-4265-99c5-21927208702f.png)
+![vlcsnap-2022-06-06-13h26m37s562](https://user-images.githubusercontent.com/37560890/172123554-257f5e1b-0cd4-431b-a0f3-50319f2d42b4.png)
+![vlcsnap-2022-06-06-13h27m01s821](https://user-images.githubusercontent.com/37560890/172123558-a757062e-2627-4543-9b02-8b7a98cd7b06.png)
+![vlcsnap-2022-06-06-13h27m14s909](https://user-images.githubusercontent.com/37560890/172123563-e8ea6caf-3e3a-4371-95a4-d9aed5b232d3.png)
+
+
 ## Solution 1. Binary Search
 
 Numbers less than the duplicate number must have frequencies less than or equal to themselves.
@@ -156,16 +171,3 @@ public:
     }
 };
 ```
-## Video Notes 
-
-![vlcsnap-2022-06-06-13h05m42s751](https://user-images.githubusercontent.com/37560890/172123513-da59f214-f95a-4c0b-8abe-41f9a172acec.png)
-![vlcsnap-2022-06-06-13h06m52s929](https://user-images.githubusercontent.com/37560890/172123527-b5554f08-0e6f-44cb-a62c-2e75f026b31d.png)
-![vlcsnap-2022-06-06-13h12m43s732](https://user-images.githubusercontent.com/37560890/172123532-bcd15cfe-75c0-4a12-b2a0-f2ab4a319e9e.png)
-![vlcsnap-2022-06-06-13h16m02s867](https://user-images.githubusercontent.com/37560890/172123536-3dba4297-e2cd-40db-b3ef-3a5d61793247.png)
-![vlcsnap-2022-06-06-13h20m26s555](https://user-images.githubusercontent.com/37560890/172123539-40aa9aa5-0975-4990-9c06-be261b330f72.png)
-![vlcsnap-2022-06-06-13h20m28s325](https://user-images.githubusercontent.com/37560890/172123540-5626f496-79c0-4e3c-8eca-1313ebc03ac1.png)
-![vlcsnap-2022-06-06-13h21m40s752](https://user-images.githubusercontent.com/37560890/172123544-76f84d55-6e82-44f3-94d3-e0d97c3ef2fd.png)
-![vlcsnap-2022-06-06-13h25m39s024](https://user-images.githubusercontent.com/37560890/172123551-d144c514-4cf2-4265-99c5-21927208702f.png)
-![vlcsnap-2022-06-06-13h26m37s562](https://user-images.githubusercontent.com/37560890/172123554-257f5e1b-0cd4-431b-a0f3-50319f2d42b4.png)
-![vlcsnap-2022-06-06-13h27m01s821](https://user-images.githubusercontent.com/37560890/172123558-a757062e-2627-4543-9b02-8b7a98cd7b06.png)
-![vlcsnap-2022-06-06-13h27m14s909](https://user-images.githubusercontent.com/37560890/172123563-e8ea6caf-3e3a-4371-95a4-d9aed5b232d3.png)
