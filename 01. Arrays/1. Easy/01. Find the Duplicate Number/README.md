@@ -131,7 +131,87 @@ public:
 };
 ```
 
-## Solution 2. Floyd's Tortoise and Hare (Cycle Detection)
+## Solution 2. Using sorting
+
+### Approach  
+
+1. initaialise a variable (ind)
+2. Sort the given vector.
+3. Traverse a for loop to nums.size();
+4. if you find two consecutive elements equal, you find a duplicate, break the loop.
+5. Return ind.
+
+```cpp
+class Solution 
+{
+public:
+    int findDuplicate(vector<int>& nums) 
+    {
+        int ind = 0;
+	
+	// sort the vector
+        sort(nums.begin(),nums.end());
+        for(int i = 0; i < nums.size() - 1; i++)
+        {
+	    // if two consecutive elements are equal
+	    // you have find a duplicate
+	    // break the loop
+            if(nums[i] == nums[i+1])
+            {
+                ind = nums[i];
+                break;
+            }
+        }
+        // return duplicate value
+        return ind;
+    }
+};
+```
+
+## Solution 3. Using the count vector
+
+### Approach  
+
+1. Take a cnt vector of size num.size() & initilise all it value to 0.
+2. Iterate the nums and store the cnt of every element in cnt array.
+3. Now traverse the cnt vector if any value in cnt vector is greater than 1 , return i. 
+4. That's the duplicate value;
+
+```cpp
+class Solution
+{
+public:
+    int findDuplicate(vector<int>& nums) 
+    {
+	// initialise cnt vector of size nums with 0
+        vector<int> cnt(nums.size(),0);
+        int ind =  0;
+		
+	// store the cnt of each value in the cnt vector
+        for(int i = 0; i<nums.size(); i++)
+        {
+            cnt[nums[i]]++;
+        }
+        
+        for(int i = 0; i<cnt.size(); i++)
+        {
+	    // if cnt[i] > 1
+	    // this means that element occur more than once in nums
+	    // we have to return i
+            
+	    if(cnt[i] > 1)
+            {
+                ind  = i;
+                break;
+            }
+        }
+        
+        return ind;
+    }
+};
+```
+
+## Solution 4. Floyd's Tortoise and Hare (Cycle Detection)
 
 ```cpp
 // OJ: https://leetcode.com/problems/find-the-duplicate-number/
