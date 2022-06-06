@@ -1,7 +1,7 @@
 # Dsa_280
 
 ### [Day-01] Array's 
-### Easy Problems
+### 1. Easy Problems
 
 S.No | Topic Name | Logic Used | Time | Space | Youtube Link
 ----| -------------| ----------|------| ------|------|
