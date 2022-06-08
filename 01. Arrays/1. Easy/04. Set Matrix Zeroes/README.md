@@ -46,6 +46,27 @@
 **Similar Questions**:
 * [Game of Life (Medium)](https://leetcode.com/problems/game-of-life/)
 
+## Video Notes
+
+![vlcsnap-2022-06-08-12h32m21s492](https://user-images.githubusercontent.com/106215989/172574528-a00a4a69-7cf9-4e32-b6d5-bbc0846d64bb.png)
+![vlcsnap-2022-06-08-12h34m15s080](https://user-images.githubusercontent.com/106215989/172574537-c5be2747-d406-4a92-8528-fd9f8acc622c.png)
+![vlcsnap-2022-06-08-12h34m31s410](https://user-images.githubusercontent.com/106215989/172574544-1418492e-f491-467e-ae56-2c3e0774d517.png)
+![vlcsnap-2022-06-08-12h36m38s255](https://user-images.githubusercontent.com/106215989/172574548-d168ce8b-b7d8-4fb0-a824-ccfa7ab3c8b4.png)
+![vlcsnap-2022-06-08-12h36m49s605](https://user-images.githubusercontent.com/106215989/172574550-4b5869ed-7a4f-4d48-83b2-ee996a95876e.png)
+![vlcsnap-2022-06-08-12h36m54s939](https://user-images.githubusercontent.com/106215989/172574556-b9d59a45-df36-4214-a74e-c5ea485e04ab.png)
+![vlcsnap-2022-06-08-12h38m40s675](https://user-images.githubusercontent.com/106215989/172574559-7656012d-1128-4756-9e6c-159700d786fa.png)
+![vlcsnap-2022-06-08-12h41m09s576](https://user-images.githubusercontent.com/106215989/172574566-3c6b9103-8ec1-4233-b3ee-fe233fa55731.png)
+![vlcsnap-2022-06-08-12h42m13s612](https://user-images.githubusercontent.com/106215989/172574572-8e1b5549-87f8-4ca2-abcd-718b643692bf.png)
+![vlcsnap-2022-06-08-12h43m27s881](https://user-images.githubusercontent.com/106215989/172574575-bca5043d-b6db-48dc-834a-8ec692ce3658.png)
+![vlcsnap-2022-06-08-12h43m47s521](https://user-images.githubusercontent.com/106215989/172574578-c2521355-2aa0-4966-b925-e466ec55b72e.png)
+![vlcsnap-2022-06-08-12h44m22s296](https://user-images.githubusercontent.com/106215989/172574581-2c9cffde-8dd0-416d-9760-d853477e32ca.png)
+![vlcsnap-2022-06-08-12h44m32s328](https://user-images.githubusercontent.com/106215989/172574584-c8508413-4c16-4190-b81f-d4abf9918fe5.png)
+![vlcsnap-2022-06-08-12h45m15s510](https://user-images.githubusercontent.com/106215989/172574588-587ab30a-c8d1-418f-8998-1e03b1548536.png)
+![vlcsnap-2022-06-08-12h45m18s203](https://user-images.githubusercontent.com/106215989/172574593-27d3e6c6-e80e-4744-a979-b364e4edcc95.png)
+![vlcsnap-2022-06-08-12h45m29s350](https://user-images.githubusercontent.com/106215989/172574597-42b7649f-ca55-46b3-b8c4-22a8a5d0e6b7.png)
+
+
+
 ## Solution 1.
 
 ```cpp
