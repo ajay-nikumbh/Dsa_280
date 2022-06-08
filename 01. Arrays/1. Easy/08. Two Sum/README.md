@@ -56,7 +56,7 @@
 * [Max Number of K-Sum Pairs (Medium)](https://leetcode.com/problems/max-number-of-k-sum-pairs/)
 * [Count Good Meals (Medium)](https://leetcode.com/problems/count-good-meals/)
 
-
+![1](https://user-images.githubusercontent.com/37560890/168958946-f6121f02-6359-4fe5-8c02-29a256d0a3ca.jpg)
 ## Solution 1.
 
 ```cpp
