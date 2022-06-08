@@ -14,3 +14,9 @@ S.No | Topic Name | Logic Used | Time | Space | Youtube Link
 7 | [Chocolate Distribution Problem](https://github.com/ajay-nikumbh/Dsa_280/tree/main/01.%20Arrays/1.%20Easy/07.%20Chocolate%20Distribution%20Problem) | Sorting and taking min difference | O(nlogn) | O(1) | [Link](https://www.youtube.com/watch?v=jjPw45HkMQs&t=53s)
 8 | [Two Sum](https://github.com/ajay-nikumbh/Dsa_280/tree/main/01.%20Arrays/1.%20Easy/08.%20Two%20Sum) | Hashing approach | O(n) | O(n) | [Link](https://www.youtube.com/watch?v=dRUpbt8vHpo)
 9 | [Best Time to Buy and Sell Stock II](https://github.com/ajay-nikumbh/Dsa_280/tree/main/01.%20Arrays/1.%20Easy/09.%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II) | Kaden's modificaton | O(n) | O(1) | [Link](https://www.youtube.com/watch?v=K8iHi8AW1ls)
+
+### 2. Medium Problems
+
+S.No | Topic Name | Logic Used | Time | Space | Youtube Link
+----| -------------| ----------|------| ------|------|
+1 | [Subarray Sums Divisible by K](https://github.com/ajay-nikumbh/Dsa_280/tree/main/01.%20Arrays/2.%20Medium/01.%20Subarray%20Sums%20Divisible%20by%20K) | 
